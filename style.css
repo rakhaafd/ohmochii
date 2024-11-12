@@ -293,22 +293,22 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url('/assets/mochi-card.jpg');
+  background-image: url('assets/mochi-card.jpg');
 }
 .card[for="c2"] {
-  background-image: url('/assets/pancake-card.jpg');
+  background-image: url('assets/pancake-card.jpg');
 }
 .card[for="c3"] {
-  background-image: url('/assets/bakedpastry-card.jpg');
+  background-image: url('assets/bakedpastry-card.jpg');
 }
 .card[for="c4"] {
-  background-image: url('/assets/mangosago-card.jpg');
+  background-image: url('assets/mangosago-card.jpg');
 }
 .card[for="c5"] {
-  background-image: url('/assets/cinamonrol-card.jpg');
+  background-image: url('assets/cinamonrol-card.jpg');
 }
 .card[for="c6"] {
-  background-image: url('/assets/spagetibrule-card.jpeg');
+  background-image: url('assets/spagetibrule-card.jpeg');
 }
 
 .lihat{
