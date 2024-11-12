@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ohmochi</title>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+          rel="stylesheet"
+        />
+    
+        <!-- feather icons -->
+        <script src="https://unpkg.com/feather-icons"></script>
+    
+        <!-- style -->
+        <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+        <!-- navbar start -->
+        <header>
+          <nav class="navbar">
+            <a href="#" class="navbar-logo">oh<span>mochi!</span></a>
+            <div class="navbar-nav">
+              <a href="home.html">Beranda</a>
+              <a href="about.html">Tentang</a>
+              <a href="product.html">Produk</a>
+              <a href="testimoni.html">Testimoni</a>
+              <a href="contact.html">Hubungi</a>
+            </div>
+    
+            <div class="navbar-extra">
+              <a href="product.html" id="shopping-cart"
+                ><i data-feather="shopping-cart"></i
+              ></a>
+              <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+            </div>
+          </nav>
+        </header>
+        <!-- navbar end -->
+
+          <!-- contact start -->
+          <article>
+            <section id="contact">
+              <div class="contact-container">
+                <h2>Hubungi<span> Kami</span></h2>
+                <p>
+                  Hubungi kami untuk informasi lebih lanjut mengenai pembelian
+                  produk.
+                </p>
+                <form id="contact-form">
+                  <div class="input-group">
+                    <label for="name">Nama<span>*</span></label>
+                    <input type="text" placeholder="masukkan nama.." id="name" name="name" required />
+                  </div>
+                  <div class="input-group">
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" placeholder="masukkan email.." id="email" name="email" required />
+                  </div>
+                  <div class="input-group">
+                    <label for="cellphone">Nomor Hp<span>*</span></label>
+                    <input type="tel" placeholder="masukkan nomor.." id="cellphone" name="cellphone" required />
+                  </div>
+                  <div class="input-group">
+                    <label for="message">Pesan<span>*</span></label>
+                    <textarea id="message" placeholder="pesan anda.." name="message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn">Send</button>
+                </form>
+              </div>
+            </section>
+          </article>
+          <!-- contact end -->
+
+          <!-- footer start -->
+          <footer>
+            <div>
+              <span>Copyright © 2023 All Rights Reserved by Group 7</span>
+            </div>
+          </footer>
+          <!-- footer end -->
+
+          <!-- feather icons -->
+    <script>
+        feather.replace();
+      </script>
+  
+      <!-- my javascript -->
+      <script src="script.js"></script>
+  
+      </script>
+</body>
+</html>
